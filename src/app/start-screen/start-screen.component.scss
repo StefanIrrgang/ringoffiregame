@@ -1,0 +1,41 @@
+.start-screen {
+    background-color: #404040;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        height: 100vh;
+        width: 100vw;
+        object-fit: contain;
+    }
+}
+
+.start-label-box {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    width: 80vw;
+    height: auto;
+    color: #E01B24;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 78px;
+
+    p {
+        margin: 0;
+        padding-bottom: 24px;
+        text-align: center;
+        text-shadow: 0 0 8px black;
+
+        &:hover {
+            filter: brightness(1.75);
+            cursor: pointer;
+        }
+    }
+
+}
