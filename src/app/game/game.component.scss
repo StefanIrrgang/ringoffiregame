@@ -16,6 +16,11 @@
     }
 }
 
+.played-card {
+    right: 25px;
+    transform: scale(1.3) translateX(150px) translateY(-180px) rotate(-15deg);
+}
+
 .pick-card {
     transition: all 100ms ease-in-out;
     animation: pick-card-animation 1s ease-in-out;
@@ -34,4 +39,15 @@
     100% {
         transform: scale(1.3) translateX(150px) translateY(-180px) rotate(-15deg);
     }
+}
+
+.player-position {
+    position: absolute;
+    right: 0;
+}
+
+.btn-add {
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
 }
