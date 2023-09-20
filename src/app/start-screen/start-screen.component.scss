@@ -17,7 +17,7 @@
 .start-label-box {
     position: absolute;
     display: flex;
-    bottom: 0;
+    bottom: 48px;
     justify-content: center;
     width: 80vw;
     height: auto;
@@ -28,9 +28,8 @@
 
     p {
         margin: 0;
-        padding-bottom: 24px;
         text-align: center;
-        text-shadow: 0 0 8px black;
+        text-shadow: 0 0 16px black;
 
         &:hover {
             filter: brightness(1.75);
